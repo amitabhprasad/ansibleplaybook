@@ -15,9 +15,9 @@ app.config['MYSQL_DATABASE_DB'] = 'employee_db'
 app.config['MYSQL_DATABASE_HOST'] = mysql_database_host
 mysql.init_app(app)
 
-conn = mysql.connect()
+#conn = mysql.connect()
 
-cursor = conn.cursor()
+#cursor = conn.cursor()
 
 @app.route("/")
 def main():
