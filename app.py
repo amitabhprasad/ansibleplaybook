@@ -21,7 +21,7 @@ cursor = conn.cursor()
 
 @app.route("/")
 def main():
-    return "Welcome!"
+    return "<b>Welcome!</b> </br> Application installed using ansible automation"
 
 @app.route('/how are you')
 def hello():
